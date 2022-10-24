@@ -28,13 +28,13 @@ Buna göre;
 
 ![github](asama-4.png)
 
-5.sırada ki 3 değeri ağacın en sonunda ki 1 den küçük olduğu için 1'in sağına gelecektir.
+5.sırada ki 3 değeri ağacın en sonunda ki 1 den büyük olduğu için 1'in sağına gelecektir.
 Aslında burada 3 değerinin takip ettiği değerleri sırasıyla yazmak olaki konunun
-daha net anlaşılmasına sebep olacağı için burada hemen bunu açıklamak istiyorum.
+daha net anlaşılmasına sebep olacağı için burada hemen bunu açıklamak gerekir.
 
 Algoritmaya göre;
 1. 3 değeri 7'den büyük olmadığı için sola kaydırılacaktır.
-2. Bu sefer 3 değeri 5 değeri ile kıyas edilecektir. Buna göre 3 5'den de küçük olduğundan dolayı 5'in sol tarafına geçecektir.
+2. Bu sefer 3 değeri 5 değeri ile kıyas edilecektir. Buna göre 3 değeri, 5'den de küçük olduğundan dolayı 5'in sol tarafına geçecektir.
 3. En sonunda 3 değeri 1 değeri ile kıyas edilecek ve 3, 1 değerinden büyük olduğu için 1'in sağ tarafına yazılacaktır.
 
 ![github](asama-5.png)
@@ -58,3 +58,10 @@ Algoritmaya göre;
 10.sırada ki 2 değeri 3'den küçük olduğu için 3'ün soluna yazılacaktır.
 
 ![github](asama-10.png)
+
+Aslında burada en fazla adım takip eden değer 2 değeri olduğu için 2 değerinin takip ettiği yolu yeniden yazmakta fayda var.
+
+1. 2 değeri kök elemanımız olan 7'den küçüktür. (*2<7*)
+2. adımda 2 değeri 5 ile kıyas edilir. 5'ten küçük olduğu için 5'in solundaki değere bakılır.
+3. 2 değeri 1'den büyük olduğu için sağ tarafa kaydırılır.
+4. 2 değeri 3'den küçük olduğu için 3'ün sol tarafında yerini alır.
