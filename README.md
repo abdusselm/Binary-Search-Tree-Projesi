@@ -14,4 +14,7 @@ Bu algoritmaya göre seçilen ilk eleman **7** olacaktır.
 
 Root elemanı seçildikten sonra sırasıyla gelen elemanlar root(kök)den büyükse root'un sağ altına değilse sol alt tarafına yazılacaktır.
 
-Buna göre
+Buna göre;
+
+2.sırada ki 5 değeri 7'den küçük olduğundan 7'nin soluna gelecektir.
+![github](asama-2.png)
